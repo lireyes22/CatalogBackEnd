@@ -11,9 +11,12 @@
 
 Api para el control de inventario y generacion de catalogos
 
+
 - http://localhost/CatalogBackEnd/public/products?page=2:GET
+- http://localhost/CatalogBackEnd/public/products:POST,PUT,PATCH,DELETE
 - http://localhost/CatalogBackEnd/public/orders/66c5606a53073cb484a40d51:GET
 - http://localhost/CatalogBackEnd/public/products?filter[Product_Category]=Aretes:GET
 - http://localhost/CatalogBackEnd/public/orders?page=2:GET
+- http://localhost/CatalogBackEnd/public/orders:POST,PUT,PATCH,DELETE
 - http://localhost/CatalogBackEnd/public/products/slug/cccccccc:GET
 - http://localhost/CatalogBackEnd/public/products/675d6766e245089ec20017db:PATCH
